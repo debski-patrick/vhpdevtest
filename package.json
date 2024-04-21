@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "clean": "nuxt clean",
+    "preview": "nuxt preview",
+    "lint": "eslint --fix .",
+    "precommit": "lint-staged -c ./.husky/.lintstagedrc -q",
+    "prepare": "is-ci || husky install",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@mdi/font": "^7.2.96",
+    "@nuxtjs/tailwindcss": "^6.6.8",
+    "@types/eslint": "^8.37.0",
+    "@types/node": "^18",
+    "@vinicunca/eslint-config": "^1.7.4",
+    "commitizen": "^4.3.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "cz-customizable": "^7.0.0",
+    "eslint": "^8.40.0",
+    "eslint-define-config": "^1.20.0",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^13.2.2",
+    "nuxt": "^3.4.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.10",
+    "@vinicunca/js-utilities": "^3.3.1",
+    "@vuepic/vue-datepicker": "^5.1.0",
+    "dayjs": "^1.11.7",
+    "lucide-vue-next": "^0.216.0",
+    "pinia": "^2.0.36",
+    "sass": "^1.62.1",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vuetify": "^3.3.5"
+  }
+}

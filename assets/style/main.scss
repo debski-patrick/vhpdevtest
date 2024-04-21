@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 99px;
+  background-color: #B4E7E8;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 99px;
+  background-color: #1FB7BA;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+.transparent {
+  outline: none;
+  border: none;
+}
